@@ -1,0 +1,373 @@
+<!DOCTYPE html><html lang="en" data-scroll-lock="false"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>2018 EtherOlympics 평창군 🌎 🇰🇷 | EtherOlympics | EtherOlympics</title><meta name="description" content="EtherOlympics is a game specifically designed for the 2018 Winter Olympics and operated on the Ethereum blockchain."><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="format-detection" content="telephone=no"><meta property="og:type" content="website"><meta property="og:site_name" content="EtherOlympics"><meta property="og:title" content="Drag-and-drop six countries for your team, but stay under the $12,000 budget. Submit your team to the Ethereum blockchain with MetaMask to play in the 2018 Winter EtherOlympics!"><meta property="og:description" content=""><meta property="og:image" content="http://etherolympics.com/assets/img/social/draggable-social.png"><meta property="og:url" content=""><meta property="twitter:card" content="summary_large_image"><meta property="twitter:site" content=""><meta property="twitter:account_id" content=""><meta property="twitter:title" content="Drag-and-drop six countries for your team, but stay under the $12,000 budget. Submit your team to the Ethereum blockchain with MetaMask to play in the 2018 Winter EtherOlympics!"><meta property="twitter:description" content=""><meta property="twitter:image" content="http://etherolympics.com/assets/img/social/draggable-social.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Draggable"><link rel="icon" type="image/png" sizes="16x16" href="https://shopify.github.io/draggable/assets/img/favicons/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="https://shopify.github.io/draggable/assets/img/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="96x96" href="https://shopify.github.io/draggable/assets/img/favicons/favicon-96x96.png"><link rel="apple-touch-icon" sizes="180x180" href="https://shopify.github.io/draggable/assets/img/favicons/apple-touch-icon.png"><link rel="manifest" href="../../../Desktop/draggable/examples/dist/manifest.json"><link rel="stylesheet" href="assets/css/examples-app.css"><script src="assets/js/examples-runtime.js" defer="defer"></script><script src="assets/js/examples-vendor.js" defer="defer"></script><script src="assets/js/examples-app.js" defer="defer"></script><script src="https://www.googletagmanager.com/gtag/js?id=UA-107063633-1" async></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-107063633-1")</script></head><body id="PageOneAndOnly"><button type="button" id="MobileNavActivator" class="Hamburger" aria-controls="Sidebar" aria-expanded="false"><div class="HamburgerBun"><div class="HamburgerPatty"></div></div></button><aside id="Sidebar" class="Sidebar" aria-hidden="true"><header class="SidebarHeader"><a href="./pick-countries.html" class="Brand" title=""><div class="SvgContainer BrandLogo"><h1>🌎 🇰🇷</h1></div></a></header><nav class="Navigation"><ul class="NavList"><li class="NavItem"><span class="NavHeading">EtherOlympics</span></li><li class="NavItem"><a href="pick-countries.html" class="NavLink" title="See example: Pick Countries">Pick Countries</a></li><li class="NavItem"><a href="rules.html" class="NavLink" title="See example: Rules">Rules</a></li><li class="NavItem"><a href="country-prices.html" class="NavLink" title="See example: Country Prices">Country Prices</a></li></ul><ul class="NavList"><li class="NavItem"><span class="NavHeading">Results</span></li><li class="NavItem"><a href="top-teams.html" class="NavLink" title="See example: Top Teams">Top Teams</a></li></ul><ul class="NavList"><li class="NavItem"><span class="NavHeading">About</span></li><li class="NavItem"><a href="smart-contract.html" class="NavLink" title="See example: Smart Contract">Smart Contract</a></li><li class="NavItem"><a href="about-us.html" class="NavLink" title="See example: About us">About us</a></li></ul></nav><footer class="SidebarFooter"><span class="label Heading--colorWhite Heading--size4 text-no-select">평창군</span><br><br><br><p class="LegalText">The only official URL for the EtherOlympics is <b>EtherOlympics.com</b>.</p></footer></aside><main class="Main" role="main"><div class="MainInterior"><div id="google_translate_element"></div>
+    <header class="PageHeader"><h1 class="Heading Heading--size1">2018 EtherOlympics 평창군 🌎 🇰🇷</h1><h2 class="Subheading">Drag-and-drop six countries for your team, but stay under the $12,000 budget. Submit your team to the Ethereum blockchain with MetaMask to play in the 2018 Winter EtherOlympics!</h2></header><style>html { // https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+  box-sizing: border-box;
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+} // if you don't already reset your box-model, read about it
+
+.input-w {
+  display: block;
+  width: 100%; // should be contained by a form or something
+  margin-bottom: 1rem;
+  @media (min-width: 500px) {
+    display: flex;
+    flex-directio3: row;
+    align-items: center;
+  }
+  .label, .input {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,.1);
+    @media (min-width: 500px) {
+      width: auto;
+      display: flex;
+    }
+  }
+  .label {
+    font-size: 33px;
+    @media (min-width: 500px) {
+      /* margin-right: 1rem; */
+      min-width: 100px; // maybe to match many?
+    }
+  }
+  .input {
+    padding: .5rem;
+    font-size: 16px;
+    @media (min-width: 500px) {
+      flex-grow: 1;
+      max-width: 450px; // arbitrary
+    }
+  }
+  }
+
+  .sticky {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  background-color: white;
+  z-index: 10;
+  }</style><section id="OneAndOnly" class="OneAndOnly"><div class="sticky"><div style="float: left"><label class="input-w" for="team-name"><span class="label Heading Heading--size4 text-no-select">Team name:</span><form style="display:inline"><input autofocus="autofocus" class="input Heading Heading--size4 text" type="text" id="team-name" style="border: 4px solid #000"></form></label></div><div style="text-align: right"><label class="input-w" for="this-input-name"><span class="label Heading Heading--size4 text-no-select">Remaining budget: </span><span id="remainingBudget" class="Heading Heading--size4 text-no-select" type="text" id="this-input-name">$12000</span></label></div><br><hr><article id="selections" class="BlockLayout BlockLayout--typeFlex"><div id="country1" class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeHollow"><div class="BlockContent"><h3 class="Heading Heading--size2 text-no-select">Country 1</h3><h3 class="Heading Heading--size4 text-no-select"></h3><br><h3 class="Heading Heading--size3 text-no-select"></h3></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeHollow"><div class="BlockContent"><h3 class="Heading Heading--size2 text-no-select">Country 2</h3><h3 class="Heading Heading--size4 text-no-select"></h3><br><h3 class="Heading Heading--size3 text-no-select"></h3></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeHollow"><div class="BlockContent"><h3 class="Heading Heading--size2 text-no-select">Country 3</h3><h3 class="Heading Heading--size4 text-no-select"></h3><br><h3 class="Heading Heading--size3 text-no-select"></h3></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeHollow"><div class="BlockContent"><h3 class="Heading Heading--size2 text-no-select">Country 4</h3><h3 class="Heading Heading--size4 text-no-select"></h3><br><h3 class="Heading Heading--size3 text-no-select"></h3></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeHollow"><div class="BlockContent"><h3 class="Heading Heading--size2 text-no-select">Country 5</h3><h3 class="Heading Heading--size4 text-no-select"></h3><br><h3 class="Heading Heading--size3 text-no-select"></h3></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeHollow"><div class="BlockContent"><h3 class="Heading Heading--size2 text-no-select">Country 6</h3><h3 class="Heading Heading--size4 text-no-select"></h3><br><h3 class="Heading Heading--size3 text-no-select"></h3></div></span></div><div class="BlockWrapper" data-droppable=""><div class="hover-item"><button type="button" id="createTeamButton"><span class="Block"><div class="BlockContent"><h3 class="Heading Heading--size2 text-no-select">Submit team!</h3><h3 class="Heading Heading--size4 text-no-select"></h3><br><h3 class="Heading Heading--size3 text-no-select"></h3></div></span></button></div></div></article>
+
+        <h1><hr></h1></div><article class="BlockLayout BlockLayout--typeFlex"><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"></p><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">AUS 🇦🇺</h3></span><h3 class="Heading Heading--size4 text-no-select">Australia</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$1207</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">AUT 🇦🇹</h3></span><h3 class="Heading Heading--size4 text-no-select">Austria</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$3507</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">BLR 🇧🇾</h3></span><h3 class="Heading Heading--size4 text-no-select">Belarus</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$339</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">BEL 🇧🇪</h3></span><h3 class="Heading Heading--size4 text-no-select">Belgium</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$490</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">BRA 🇧🇷</h3></span><h3 class="Heading Heading--size4 text-no-select">Brazil</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">CAN 🇨🇦</h3></span><h3 class="Heading Heading--size4 text-no-select">Canada</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$6486</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">CHN 🇨🇳</h3></span><h3 class="Heading Heading--size4 text-no-select">China</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$2941</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">CZE 🇨🇿</h3></span><h3 class="Heading Heading--size4 text-no-select">Czech Republic</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$1961</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">EST 🇪🇪</h3></span><h3 class="Heading Heading--size4 text-no-select">Estonia</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">FIN 🇫🇮</h3></span><h3 class="Heading Heading--size4 text-no-select">Finland</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$792</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">FRA 🇫🇷</h3></span><h3 class="Heading Heading--size4 text-no-select">France</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$6486</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">GER 🇩🇪</h3></span><h3 class="Heading Heading--size4 text-no-select">Germany</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$9087</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">GHA 🇬🇭</h3></span><h3 class="Heading Heading--size4 text-no-select">Ghana</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">GBR 🇬🇧</h3></span><h3 class="Heading Heading--size4 text-no-select">Great Britain</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$792</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">GRE 🇬🇷</h3></span><h3 class="Heading Heading--size4 text-no-select">Greece</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">HUN 🇭🇺</h3></span><h3 class="Heading Heading--size4 text-no-select">Hungary</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$339</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">ISL 🇮🇸</h3></span><h3 class="Heading Heading--size4 text-no-select">Iceland</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">IND 🇮🇳</h3></span><h3 class="Heading Heading--size4 text-no-select">India</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">IRL 🇮🇪</h3></span><h3 class="Heading Heading--size4 text-no-select">Ireland</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">ITA 🇮🇹</h3></span><h3 class="Heading Heading--size4 text-no-select">Italy</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$1169</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">JAM 🇯🇲</h3></span><h3 class="Heading Heading--size4 text-no-select">Jamaica</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">JPN 🇯🇵</h3></span><h3 class="Heading Heading--size4 text-no-select">Japan</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$3544</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">KAZ 🇰🇿</h3></span><h3 class="Heading Heading--size4 text-no-select">Kazakhstan</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$113</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">LAT 🇱🇻</h3></span><h3 class="Heading Heading--size4 text-no-select">Latvia</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$377</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">LIE 🇱🇮</h3></span><h3 class="Heading Heading--size4 text-no-select">Liechtenstein</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$377</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">MEX 🇲🇽</h3></span><h3 class="Heading Heading--size4 text-no-select">Mexico</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">NED 🇳🇱</h3></span><h3 class="Heading Heading--size4 text-no-select">Netherlands</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$4412</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">NZL 🇳🇿</h3></span><h3 class="Heading Heading--size4 text-no-select">New Zealand</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$113</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">NOR 🇳🇴</h3></span><h3 class="Heading Heading--size4 text-no-select">Norway</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$8748</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">PRK 🇰🇵</h3></span><h3 class="Heading Heading--size4 text-no-select">North Korea</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">PHI 🇵🇭</h3></span><h3 class="Heading Heading--size4 text-no-select">Phillipines</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">POL 🇵🇱</h3></span><h3 class="Heading Heading--size4 text-no-select">Poland</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$867</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">SRB 🇷🇸</h3></span><h3 class="Heading Heading--size4 text-no-select">Serbia</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">SVK 🇸🇰</h3></span><h3 class="Heading Heading--size4 text-no-select">Slovakia</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$452</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">SLO 🇸🇮</h3></span><h3 class="Heading Heading--size4 text-no-select">Slovena</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$490</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">KOR 🇰🇷</h3></span><h3 class="Heading Heading--size4 text-no-select">South Korea</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$3318</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">ESP 🇪🇸</h3></span><h3 class="Heading Heading--size4 text-no-select">Spain</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$339</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">SWE 🇸🇪</h3></span><h3 class="Heading Heading--size4 text-no-select">Sweden</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$3507</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">SUI 🇨🇭</h3></span><h3 class="Heading Heading--size4 text-no-select">Switzerland</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$3431</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">THA 🇹🇭</h3></span><h3 class="Heading Heading--size4 text-no-select">Thailand</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$50</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">UKR 🇺🇦</h3></span><h3 class="Heading Heading--size4 text-no-select">Ukraine</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$113</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div><div class="BlockWrapper BlockWrapper--isDroppable draggable-droppable--occupied" data-droppable=""><span class="Block Block--typeStripes"><div class="BlockContent"></div></span><a href="#" class="Block Block--isDraggable" title="Click to drag"><div class="BlockContent"><span class="notranslate"><h3 class="Heading Heading--size2 text-no-select">USA 🇺🇸</h3></span><h3 class="Heading Heading--size4 text-no-select">United States</h3><br><span class="notranslate"><h3 class="Heading Heading--size3 text-no-select">$7051</h3></span><div class="Pattern Pattern--typeHalftone"></div><div class="Pattern Pattern--typePlaced"></div></div></a></div></article><br><br><br></section>
+
+<script type="text/javascript">// Select the node that will be observed for mutations
+  var targetNode = document.getElementById('selections');
+
+  // Options for the observer (which mutations to observe)
+  var config = { attributes: true, childList: true };
+
+  // Callback function to execute when mutations are observed
+  var callback = function(mutationsList) {
+      for(var mutation of mutationsList) {
+          if (mutation.type == 'childList') {
+              console.log('A child node has been added or removed.');
+          }
+          else if (mutation.type == 'attributes') {
+            calculateRemainingBudget();
+
+          }
+      }
+  };
+
+  // Create an observer instance linked to the callback function
+  var observer = new MutationObserver(callback);
+
+  // Start observing the target node for configured mutations
+  observer.observe(targetNode, config);
+
+  function calculateRemainingBudget() {
+            var c1 = 0;
+            var c2 = 0;
+            var c3 = 0;
+            var c4 = 0;
+            var c5 = 0;
+            var c6 = 0;
+
+
+            if (document.querySelectorAll('#selections > div:nth-child(1) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0] !=  null) {
+                c1 = parseInt(document.querySelectorAll('#selections > div:nth-child(1) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0].innerHTML.substr(1));
+            }
+
+            if (document.querySelectorAll('#selections > div:nth-child(2) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0]  !=  null) {
+                c2 = parseInt(document.querySelectorAll('#selections > div:nth-child(2) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0].innerHTML.substr(1));
+            }
+
+           if (document.querySelectorAll('#selections > div:nth-child(3) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0]  !=  null) {
+                c3 =  parseInt(document.querySelectorAll('#selections > div:nth-child(3) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0].innerHTML.substr(1));
+           }
+
+           if (document.querySelectorAll('#selections > div:nth-child(4) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0] !=  null) {
+                c4 = parseInt(document.querySelectorAll('#selections > div:nth-child(4) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0].innerHTML.substr(1));
+           }
+
+           if (document.querySelectorAll('#selections > div:nth-child(5) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0]  !=  null) {
+                c5 = parseInt(document.querySelectorAll('#selections > div:nth-child(5) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0].innerHTML.substr(1));
+           }
+
+           if (document.querySelectorAll('#selections > div:nth-child(6) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0] !=  null)
+              {
+               c6 = parseInt(document.querySelectorAll('#selections > div:nth-child(6) > a > div > span > h3.Heading.Heading--size3.text-no-select')[0].innerHTML.substr(1));
+           }
+
+           var remainingBudget = 12000 - (c1 + c2 + c3 + c4 + c5 + c6);
+
+           console.log(remainingBudget);
+           document.getElementById("remainingBudget").innerHTML = "$" + remainingBudget;
+  }
+
+  function generateTeamName() {
+    var colors = ["Azure",
+"bagel",
+"beaver",
+"Beige",
+"biloxi",
+"Bisque",
+"Black",
+"bloodred",
+"bloodred",
+"Blue",
+"bluebell",
+"bluegray",
+"bluemoon",
+"brickred",
+"Brown",
+"calmair",
+"camel",
+"canary",
+"caravan",
+"centaur",
+"cerise",
+"cerulean",
+"citrus",
+"copper",
+"Coral",
+"coralred",
+"cornsilk",
+"Cornsilk",
+"Crimson",
+"Cyan",
+"DarkBlue",
+"DarkCyan",
+"DarkGray",
+"DarkRed",
+"DeepPink",
+"deepplum",
+"denim",
+"DimGray",
+"downy",
+"ebony",
+"eggnog",
+"eggplant",
+"Feldspar",
+"fern",
+"fig",
+"fire",
+"fishbowl",
+"flame",
+"flaming",
+"flesh",
+"fuchsia",
+"Fuchsia",
+"glow",
+"gold",
+"Gold",
+"goldbuff",
+"goldfish",
+"gray",
+"Gray",
+"Green",
+"HoneyDew",
+"hotlava",
+"HotPink",
+"inchworm",
+"Indigo",
+"infrared",
+"Ivory",
+"jetblack",
+"joyride",
+
+"Khaki",
+"lavender",
+"Lavender",
+"leapfrog",
+"leisure",
+"lielocks",
+"lily",
+"Lime",
+"Linen",
+"lionmane",
+"macaw",
+"magenta",
+"Magenta",
+"mahogany",
+"maize",
+"manatee",
+"mandarin",
+"marigold",
+"maroon",
+"Maroon",
+"melon",
+"mesa",
+"Moccasin",
+"moonmist",
+"moss",
+"mountain",
+"mulberry",
+"Navy",
+"navyblue",
+"newrose",
+"OldLace",
+"Olive",
+"Orange",
+"orchid",
+"Orchid",
+"outback",
+"parmesan",
+"peach",
+"Peru",
+"pigpink",
+"pinetop",
+"Pink",
+"plum",
+"Plum",
+"poppyred",
+"Purple",
+"raven",
+
+"Red",
+"redred",
+"redtulip",
+"redwine",
+"rosered",
+"rubine",
+"rubyred",
+"ryegrass",
+"salmon",
+"Salmon",
+"seagreen",
+"seagreen",
+"SeaGreen",
+"seakelp",
+"SeaShell",
+"sepia",
+"shadow",
+"shamrock",
+"Sienna",
+"silk",
+"silver",
+"Silver",
+"skyblue",
+"SkyBlue",
+"Snow",
+"stardust",
+"strawhat",
+"sunglint",
+"sunglow",
+"sunporch",
+"sunray",
+"tan",
+"Tan",
+"Teal",
+"tealblue",
+"thistle",
+"Thistle",
+"Tomato",
+"torchred",
+"tweed",
+"twinkle",
+"ultrared",
+"vibrant",
+"Violet",
+"warmglow",
+"warmgold",
+"wheat",
+"Wheat",
+"white",
+"White",
+"wildfire",
+"windsong",
+"wisteria",
+"Yellow"];
+    var actions = ["skier",
+"jumper",
+"bobsledder",
+"skater",
+"snowman",
+"snowbunny",
+"iceman",
+"icedog",
+"polarbear",
+"seal",
+"penguin",
+"fox",
+"curler",
+"snowboarder",
+"skier",
+"skipro",
+"shredder",
+"hockey",
+"luger",
+"dancer",
+"athlete",
+"hiker",
+"shooter",
+"icepicker",
+"cat",
+"narwhal",
+"walrus",
+"wolf",
+"whale",
+"moose",
+"puffin",
+"reindeer",
+"goose",
+"caribou",
+"miner",
+"satoshi",
+"crypto",
+"block",
+"prover",
+"hacker",
+"validator",
+"signer",
+"staker",
+"scripter",
+"byzantium",
+"mister",
+"hare",
+"eskimo",
+"furball",
+"igloo",
+"frost",
+"fire",
+"skipole",
+"bobsled",
+"iceskate",
+"slalom",
+"country",
+"snowshoe",
+"sniper",
+"beaver",
+"mountain",
+"icerink"];
+
+var newTeamName =  colors[Math.floor(Math.random()*colors.length)] +
+actions[Math.floor(Math.random()*actions.length)] + (Math.floor(Math.random() * (1000 - 10 + 1)) + 10);
+console.log(newTeamName);
+ document.getElementById("team-name").value = newTeamName;
+
+  }
+
+  generateTeamName();</script><br><br><h3 class="Heading Heading--size3 Heading--colorBlack">Read the rules <u><a href="rules.html">here</a></u>!</h3><br><br><span class="notranslate"><h2 class="Subheading">Good luck!<br>加油!<br>Veel geluk!<br>Bonne chance!<br>행운을 빕니다<br>Buena suerte!</h2></span><br><br></div></main></body><script src="./../js/web3.min.js"></script>
+<script src="./../js/app.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</html>
